@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #090a0d;
+  --color-panel: #12141b;
+  --color-panel-2: #1b1f29;
+  --color-line: rgba(236, 220, 186, 0.14);
+  --color-gold: #e6c48a;
+  --color-gold-2: #f6e6c8;
+  --color-mint: #9ae6c8;
+  --color-coral: #ff7d5c;
+  --color-mist: #e7e1d6;
+  --color-dim: #948f84;
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-instrument), ui-serif, Georgia, serif;
+  --font-mono: var(--font-plex), ui-monospace, monospace;
+}
+
+html,
+body {
+  background: var(--color-ink);
+  color: var(--color-mist);
+  min-height: 100%;
+}
+
+body {
+  background-image:
+    radial-gradient(900px 420px at 0% -10%, rgba(230, 196, 138, 0.16), transparent 55%),
+    radial-gradient(700px 380px at 100% 0%, rgba(154, 230, 200, 0.07), transparent 50%);
+}
+
+::selection {
+  background: rgba(230, 196, 138, 0.28);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(230, 196, 138, 0.35) transparent;
+}
+
+@keyframes pulse-ring {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+}
+
+.ringing {
+  animation: pulse-ring 0.35s ease-in-out infinite;
+}
