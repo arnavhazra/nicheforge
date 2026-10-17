@@ -85,7 +85,7 @@ export function FulfillPillar() {
     <div className="space-y-4">
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
-          <p className="text-[10px] uppercase tracking-[0.18em] text-dim">Don&apos;t drown in delivery</p>
+          <p className="text-[10px] uppercase tracking-[0.18em] text-dim">Fulfillment bundle</p>
           <h2 className="font-serif text-3xl text-gold-2">{live.business}</h2>
           <p className="text-sm text-dim">
             {live.niche.vertical} · {live.cityLine} · {live.niche.economics}

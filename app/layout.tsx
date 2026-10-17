@@ -17,7 +17,7 @@ const mono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Lumina NicheForge — Closing Call Cockpit",
+  title: "NicheForge — Multi-Vertical Voice & CRM Cockpit",
   description:
     "Instant multi-vertical closing demos and a one-click fulfillment compiler for AI agencies. Voice, dead-lead reactivation, AEO, and a margin-safe client pack.",
 };

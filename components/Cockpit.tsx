@@ -55,7 +55,7 @@ export function Cockpit() {
         <header className="shrink-0 border-b border-line bg-ink/75 backdrop-blur">
           <div className="flex flex-wrap items-center gap-3 px-4 py-3">
             <div className="mr-2">
-              <p className="text-[10px] uppercase tracking-[0.28em] text-gold">Lumina</p>
+              <p className="text-[10px] uppercase tracking-[0.28em] text-gold">Studio</p>
               <p className="font-serif text-2xl leading-none">NicheForge</p>
             </div>
             <div className="flex min-w-0 flex-1 gap-2 overflow-x-auto">

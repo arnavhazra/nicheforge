@@ -4,7 +4,7 @@ import { NICHES, PILLAR_COUNT } from "@/lib/niches";
 
 export async function GET() {
   return NextResponse.json(
-    { status: "ok", service: "lumina-nicheforge", niches: NICHES.length, pillars: PILLAR_COUNT },
+    { status: "ok", service: "nicheforge", niches: NICHES.length, pillars: PILLAR_COUNT },
     { headers: corsHeaders },
   );
 }

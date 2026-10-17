@@ -462,7 +462,7 @@ export function compilePack(ctx: ProspectContext) {
   ];
 
   return {
-    service: "lumina-nicheforge",
+    service: "nicheforge",
     compiledAt: new Date().toISOString(),
     prospect: {
       business: ctx.business,
